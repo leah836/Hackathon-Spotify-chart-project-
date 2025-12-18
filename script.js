@@ -23,36 +23,16 @@ var selectedArtist = document.getElementById("artist").value;
 console.log(selectedArtist);
 
 document.getElementById("outputBox").innerHTML = " "
-// var matchingRank = [];
-// var matchingSong = [];
 
 for(var i = 0; i < artist.length; i++){
     if(artist[i] == selectedArtist){
         document.getElementById("outputBox").innerHTML += rank[i] + " ";
         document.getElementById("outputBox").innerHTML += song[i] + "<br>";
-//         matchingRank.push(rank[i]);
-//         matchingSong.push(song[i]);
         
     }
 }
 
 console.log(matchingRank);
 console.log(matchingSong);
-
-
-// document.getElementById("outputBox").innerHTML = "";
-
-// for(var i = 0; i < matchingSong.length; i++){
-//     var songName = document.createElement("p");
-//     songName.innerHTML = matchingSong[i];
-//     document.getElementById("outputBox").appendChild(songName);
-// }
-
-// for(var i = 0; i < matchingRank.length; i++){
-//     var rankSong = document.createElement("p");
-//     rankSong.innerHTML = matchingRank[i];
-//     document.getElementById("outputBox").appendChild(rankSong);
-// }
-
 
 }
