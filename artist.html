@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify top 50</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <center>
+    <header>
+	    <h1>Spotify top 50</h1>
+	</header>
+
+	<label>Artist: </label>
+    <select id="artist">
+        
+    </select>
+    <br>
+    <br>
+
+
+    <button onclick="getResultsA()">Find songs and rank!</button>
+
+    <div class = "clearButton">
+        <button id ="clear" onclick="clearButton()">Clear</button>
+    </div>
+
+    <h2>Results</h2>
+    <div id = "outputBox" class="outputBox">
+
+	  </div>
+    
+
+  </center>
+
+    <div class = "rankingsButton">
+        <button id ="rankings" onclick="rankings()">Find songs by Rank</button>
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="artistScript.js"></script>
+</body>
+</html>

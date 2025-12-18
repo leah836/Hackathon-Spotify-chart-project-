@@ -1,0 +1,51 @@
+body{
+  font-family: monospace;
+}
+header{
+  background-color: lightseagreen;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+label{
+  font-size: 20px;
+}
+select{
+  font-family: monospace;
+  font-size: 20px;
+}
+input{
+  font-family: monospace;
+  font-size: 20px;
+}
+
+button{
+  background-color: lightseagreen;
+  padding: 10px;
+  font-family: monospace;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.outputBox{
+  padding: 10px;
+  min-height: 160px;
+  width: 60%;
+  outline-color: lightseagreen;
+  outline-style: solid;
+}
+.artistButton{
+  text-align: center;
+  background-color: lightseagreen;
+  margin-top: 80px;
+  padding: 10px;
+  margin-left: 50px;
+  width: 30%
+}
+.rankingsButton{
+  text-align: center;
+  background-color: lightseagreen;
+  margin-top: 80px;
+  padding: 10px;
+  margin-left: 50px;
+  width: 30%
+}
