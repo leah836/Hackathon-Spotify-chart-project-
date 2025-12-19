@@ -20,7 +20,7 @@
     <br>
 
 
-    <button onclick="getResultsA()">Find songs and rank!</button>
+    <button id="findButton" onclick="getResultsA()">Find songs and rank!</button>
 
     <div class = "clearButton">
         <button id ="clear" onclick="clearButton()">Clear</button>
@@ -34,9 +34,10 @@
 
   </center>
 
-    <div class = "rankingsButton">
-        <button id ="rankings" onclick="rankings()">Find songs by Rank</button>
+     <div>
+        <button class="rankingsButton" onclick="rankings()">Find songs by Rank</button>
     </div>
+   
 
     <script src="utils.js"></script>
     <script src="artistScript.js"></script>
