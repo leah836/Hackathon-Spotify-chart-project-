@@ -18,11 +18,11 @@ input{
   font-size: 20px;
 }
 
-button{
+#findButton{
   background-color: lightseagreen;
   padding: 10px;
   font-family: monospace;
-  border: none;
+  border: none ;
   margin-bottom: 10px;
 }
 
@@ -35,17 +35,38 @@ button{
 }
 .artistButton{
   text-align: center;
-  background-color: lightseagreen;
-  margin-top: 80px;
-  padding: 10px;
-  margin-left: 50px;
-  width: 30%
+  background-color:lightseagreen;
+  margin-top: 60px;
+  padding: 20px;
+  font-family: monospace;
+  margin-left: 70px;
+  width: 30%;
+  border: none;
 }
+
+.artistButton:hover{
+  background-color: rgb(178, 32, 32);
+}
+
 .rankingsButton{
   text-align: center;
   background-color: lightseagreen;
-  margin-top: 80px;
-  padding: 10px;
-  margin-left: 50px;
-  width: 30%
+  margin-top: 60px;
+  padding: 20px;
+  font-family: monospace;
+  margin-left: 70px;
+  width: 30%;
+  border: none;
+}
+.rankingsButton:hover{
+  background-color: rgb(178, 32, 32);
+}
+#clear{
+  text-align: center;
+  background-color: lightseagreen;
+  border: none;
+  padding: 5px;
+}
+#clear:hover,#findButton:hover{
+  background-color:rgb(178, 32, 32);
 }
