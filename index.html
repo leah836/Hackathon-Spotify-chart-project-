@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Top 50 USA</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<center>
+	<header>
+		<h1>Spotify Top 50 USA</h1>
+	</header>
+
+	<center>
+		<label>Artists</label>
+    <select id="artistName">
+      <option value="Arctic Monkeys">Arctic Monkeys</option>
+      <option value="Bad Bunny">Bad Bunny</option>
+      <option value="Bailey Zimmerman">Bailey Zimmerman</option>
+      <option value="Beyoncé">Beyoncé</option>
+      <option value="David Guetta">David Guetta</option>
+      <option value="d4vd">d4vd</option>
+      <option value="Drake">Drake</option>
+      <option value="Fuerza Regida">Fuerza Regida</option>
+      <option value="Future">Future</option>
+      <option value="Harry Styles">Harry Styles</option>
+      <option value="Hotel Ugly">Hotel Ugly</option>
+      <option value="J. Cole">J. Cole</option>
+      <option value="JVKE">JVKE</option>
+      <option value="Lil Uzi Vert">Lil Uzi Vert</option>
+      <option value="Meghan Trainor">Meghan Trainor</option>
+      <option value="Metro Boomin">Metro Boomin</option>
+      <option value="Miguel">Miguel</option>
+      <option value="Morgan Wallen">Morgan Wallen</option>
+      <option value="NewJeans">NewJeans</option>
+      <option value="Ñengo Flow">Ñengo Flow</option>
+      <option value="OneRepublic">OneRepublic</option>
+      <option value="RAYE">RAYE</option>
+      <option value="Sam Smith">Sam Smith</option>
+      <option value="SZA">SZA</option>
+      <option value="Steve Lacy">Steve Lacy</option>
+      <option value="Stephen Sanchez">Stephen Sanchez</option>
+      <option value="Taylor Swift">Taylor Swift</option>
+      <option value="The Neighbourhood">The Neighbourhood</option>
+      <option value="ThxSoMch">ThxSoMch</option>
+      <option value="Tory Lanez">Tory Lanez</option>
+
+
+    </select>
+    <br>
+    <br>
+
+    <button onclick="getResults(document.getElementById('artistName').value )">Find Track</button>
+
+    <h2>Track & Rank</h2>
+    <div id="outputBox" class="outputBox"></div>
+
+    
+</center>
+</body>
+</html>
+
+<button id="minigame" onclick="game()">Mini Game</button>
+
+<script src="utils.js"></script>
+<script src="script.js"></script>

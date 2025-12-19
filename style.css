@@ -1,72 +1,19 @@
-body{
-  font-family: monospace;
-}
 header{
-  background-color: lightseagreen;
+  background-color: rgb(30, 207, 198);
   padding: 20px;
   margin-bottom: 10px;
 }
-label{
-  font-size: 20px;
-}
-select{
-  font-family: monospace;
-  font-size: 20px;
-}
-input{
-  font-family: monospace;
-  font-size: 20px;
-}
-
-#findButton{
-  background-color: lightseagreen;
+button{
+  background-color: rgb(164, 245, 184);
   padding: 10px;
   font-family: monospace;
-  border: none ;
+  border: none;
   margin-bottom: 10px;
 }
-
 .outputBox{
   padding: 10px;
   min-height: 160px;
   width: 60%;
   outline-color: lightseagreen;
   outline-style: solid;
-}
-.artistButton{
-  text-align: center;
-  background-color:lightseagreen;
-  margin-top: 60px;
-  padding: 20px;
-  font-family: monospace;
-  margin-left: 70px;
-  width: 30%;
-  border: none;
-}
-
-.artistButton:hover{
-  background-color: rgb(178, 32, 32);
-}
-
-.rankingsButton{
-  text-align: center;
-  background-color: lightseagreen;
-  margin-top: 60px;
-  padding: 20px;
-  font-family: monospace;
-  margin-left: 70px;
-  width: 30%;
-  border: none;
-}
-.rankingsButton:hover{
-  background-color: rgb(178, 32, 32);
-}
-#clear{
-  text-align: center;
-  background-color: lightseagreen;
-  border: none;
-  padding: 5px;
-}
-#clear:hover,#findButton:hover{
-  background-color:rgb(178, 32, 32);
 }
