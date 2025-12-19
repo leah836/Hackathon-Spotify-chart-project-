@@ -1,0 +1,31 @@
+body {
+  margin: 40px;
+  font-family: sans-serif;
+  background-color: #d7f3f3;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2d3436;
+}
+
+button {
+  display: block;
+  width: 320px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+
+  color: #1e272e;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  transition: all 0.25s ease;
+}
