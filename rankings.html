@@ -19,10 +19,9 @@
     <br>
     <br>
 
+    <button id="findButton" onclick="getResultsB()">Find Song and Artist!</button> 
 
-    <button onclick="getResultsB()">Find Song and Artist!</button>
-
-    <div class = "clearButton">
+    <div class="clearButton">
         <button id ="clear" onclick="clearButton()">Clear</button>
     </div>
 
@@ -34,9 +33,14 @@
 
   </center>
 
-    <div class = "artistButton">
-        <button id ="findByArtist" onclick="findByArtist()">Find songs by Artist</button>
+    <div>
+        <button class="artistButton" onclick="findByArtist()">Find songs by Artist</button>
     </div>
+
+    <script src="utils.js"></script>
+    <script src="rankingsScript.js"></script>
+</body>
+</html>
 
     <script src="utils.js"></script>
     <script src="rankingsScript.js"></script>
