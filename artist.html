@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify top 50</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Spotify top 49</title>
+    <link href="artist.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <center>
     <header>
-	    <h1>Spotify top 50</h1>
+	    <h1>Spotify top 49</h1>
 	</header>
 
 	<label>Artist: </label>
@@ -19,24 +19,30 @@
     <br>
     <br>
 
-
+    <!-- calls the getResultsA function to find the song and rank -->
     <button id="findButton" onclick="getResultsA()">Find songs and rank!</button>
 
     <div class = "clearButton">
+        <!-- calls the clearButton() to reset the output box -->
         <button id ="clear" onclick="clearButton()">Clear</button>
     </div>
 
     <h2>Results</h2>
     <div id = "outputBox" class="outputBox">
-
-	  </div>
+    </div>
     
+    <div>
+        <!-- calls the rankings() function to travel to the rankings html -->
+        <button id="rankingsButton" onclick="rankings()">Find songs by Rank</button>
+        <!-- calls the game() function to travel to the minigame -->
+        <button id="minigame" onclick="game()">Mini Game</button>
+    </div>
 
   </center>
 
-     <div>
-        <button class="rankingsButton" onclick="rankings()">Find songs by Rank</button>
-    </div>
+
+
+
    
 
     <script src="utils.js"></script>
