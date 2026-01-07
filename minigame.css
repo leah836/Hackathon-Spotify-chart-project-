@@ -1,31 +1,78 @@
-body {
-  margin: 40px;
-  font-family: sans-serif;
-  background-color: #d7f3f3;
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:azure
 }
 
-h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
-  color: #2d3436;
+h2{
+  background-color: rgb(110, 230, 152);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius:30px;
 }
 
-button {
-  display: block;
-  width: 320px;
-  padding: 16px 20px;
-  margin-bottom: 20px;
+button{
+  border-radius:10px;
+}
 
-  font-size: 17px;
-  font-weight: bold;
-  text-align: left;
+#tryAgain{
+  text-align: center;
+  font-size: 110%;
+  background-color:rgb(217, 70, 70);
+  margin-top: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 40%;
+  height: 70px;
+}
 
-  color: #1e272e;
-  background: linear-gradient(135deg, #74b9ff, #a29bfe);
-  border: none;
-  border-radius: 10px;
+#playAgain{
+  background-color:rgb(123, 225, 107);
+  text-align: center;
+  font-size: 110%;
+  margin-top: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 40%;
+  height: 70px;
+}
 
+.minigameButtons{
+  text-align: center;
+  font-size: 100%;
+  background-color:rgb(184, 149, 234);
+  vertical-align: middle;
+  margin-top: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 40px;
+  width: 40%;
+  height: 100px;
+  border:3px solid rgb(118, 102, 221);
+}
+
+.minigameButtons:hover{
+  background-color: rgb(76, 193, 219);
   cursor: pointer;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
-  transition: all 0.25s ease;
+}
+
+.artistButton{
+  text-align: center;
+  background-color:rgb(110, 230, 152);
+  margin-top: 60px;
+  padding: 20px;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  margin-right: 40px;
+  width: 30%;
+  border: none;
+}
+
+.artistButton:hover,#rankingsButton:hover{
+  background-color: rgb(225, 107, 107);
+}
+#rankingsButton{
+  text-align: center;
+  background-color: rgb(110, 230, 152);
+  margin-top: 60px;
+  padding: 20px;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  margin-right: 40px;
+  width: 30%;
+  border: none;
 }
