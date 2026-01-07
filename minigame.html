@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Game</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="minigame.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+  <center>
   <h2> Which Song Is More Popular?</h2>
 
-<button id="song1Btn" onclick="guess(1)"></button>
-<br><br>
-<button id="song2Btn" onclick="guess(2)"></button>
+  <div> 
+    <!-- assigning a value (0 or 1) to each outcome and comparing it to the parameter in the called function -->
+    <button id="song1Btn" onclick="guess(0)" class = "minigameButtons"></button>
+    <button id="song2Btn" onclick="guess(1)" class = "minigameButtons"></button>
+  </div>
 
+  <div>
+    <!-- calls the findByArtist() function to travel to the artist html -->
+    <button class="artistButton" onclick="findByArtist()">Find songs by Artist</button>
+    <!-- calls the rankings() function to travel to the rankings html -->
+    <button id="rankingsButton" onclick="rankings()">Find songs by Rank</button>
+  </div>
+
+  </center>
+
+<script src="utils.js"></script>
 <script src="minigame.js"></script>
 </body>
 </html>
