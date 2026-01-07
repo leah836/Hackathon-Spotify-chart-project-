@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Correct</title>
-  <link href="correct.css" rel="stylesheet" type="text/css" />
+    <link href="minigame.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<center>
+  <h1>Correct!</h1>
 
-  <h1>Correct</h1>
-    <button onclick="retry()">Play Again</button>
-    <script>
-        function retry(){
-            window.location.href = ("minigame.html")
-        }
-    </script>
+  <!-- calls the playAgain() function to return to the minigame html -->
+  <button id ="playAgain" onclick ="playAgain()">Play Again</button>
 
+</center>
+<script src="minigame.js"></script>
 </body>
 </html>
